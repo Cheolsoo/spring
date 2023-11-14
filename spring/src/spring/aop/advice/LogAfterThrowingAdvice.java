@@ -4,6 +4,6 @@ import org.springframework.aop.ThrowsAdvice;
 
 public class LogAfterThrowingAdvice implements ThrowsAdvice {
 	public void afterThrowing(IllegalArgumentException e) throws Throwable {
-		System.out.println("¿¹¿Ü°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.: " + e.getMessage());
+		System.out.println("ì˜ˆì™¸ê°€ ë°œìƒí•˜ì˜€ìŠµë‹ˆë‹¤.: " + e.getMessage());
 	}
 }

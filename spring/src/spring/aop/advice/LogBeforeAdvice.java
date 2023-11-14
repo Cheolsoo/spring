@@ -9,7 +9,7 @@ public class LogBeforeAdvice implements MethodBeforeAdvice {
 	@Override
 	public void before(Method method, Object[] args, Object target) throws Throwable {
 		// TODO Auto-generated method stub
-		System.out.println("¾Õ¿¡¼­ ½ÇÇàµÉ ·ÎÁ÷");
+		System.out.println("ì•ì—ì„œ ì‹¤í–‰ë  ë¡œì§");
 		
 	}
 
