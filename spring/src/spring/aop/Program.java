@@ -1,16 +1,3 @@
-// Git local 저장소 생성하고 최초 커밋이 된건가????
-// 20231113-1842
-//
-// .gitignore 파일을 Package Explorer 에서 찾을수는 없나?
-
-// 오호 Unstaged Changes 에서 더블클릭하니 바로 diff 화면이네
-// 
-// remote 저장소와 연결 된건가?
-
-// 2023.11.14 17:44
-// 이제 신규 저장소와 연결되는가?
-// 되는거야 안되는거야
-
 package spring.aop;
 
 import java.lang.reflect.InvocationHandler;
