@@ -1,15 +1,15 @@
-// Git local ÀúÀå¼Ò »ı¼ºÇÏ°í ÃÖÃÊ Ä¿¹ÔÀÌ µÈ°Ç°¡????
+// Git local ì €ì¥ì†Œ ìƒì„±í•˜ê³  ìµœì´ˆ ì»¤ë°‹ì´ ëœê±´ê°€????
 // 20231113-1842
 //
-// .gitignore ÆÄÀÏÀ» Package Explorer ¿¡¼­ Ã£À»¼ö´Â ¾ø³ª?
+// .gitignore íŒŒì¼ì„ Package Explorer ì—ì„œ ì°¾ì„ìˆ˜ëŠ” ì—†ë‚˜?
 
-// ¿ÀÈ£ Unstaged Changes ¿¡¼­ ´õºíÅ¬¸¯ÇÏ´Ï ¹Ù·Î diff È­¸éÀÌ³×
+// ì˜¤í˜¸ Unstaged Changes ì—ì„œ ë”ë¸”í´ë¦­í•˜ë‹ˆ ë°”ë¡œ diff í™”ë©´ì´ë„¤
 // 
-// remote ÀúÀå¼Ò¿Í ¿¬°á µÈ°Ç°¡?
+// remote ì €ì¥ì†Œì™€ ì—°ê²° ëœê±´ê°€?
 
 // 2023.11.14 17:44
-// ÀÌÁ¦ ½Å±Ô ÀúÀå¼Ò¿Í ¿¬°áµÇ´Â°¡?
-// µÇ´Â°Å¾ß ¾ÈµÇ´Â°Å¾ß
+// ì´ì œ ì‹ ê·œ ì €ì¥ì†Œì™€ ì—°ê²°ë˜ëŠ”ê°€?
+// ë˜ëŠ”ê±°ì•¼ ì•ˆë˜ëŠ”ê±°ì•¼
 
 package spring.aop;
 
@@ -52,7 +52,7 @@ public class Program {
 												
 						long end = System.currentTimeMillis();
 						
-						String message = (end - start) + "ms ½Ã°£ÀÌ °É·È½À´Ï´Ù.";
+						String message = (end - start) + "ms ì‹œê°„ì´ ê±¸ë ¸ìŠµë‹ˆë‹¤.";
 						System.out.println(message);
 
 						
