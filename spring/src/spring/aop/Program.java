@@ -19,7 +19,7 @@ public class Program {
 				new ClassPathXmlApplicationContext("spring/aop/setting.xml");		
 		
 		Exam exam = (Exam) context.getBean("exam");
-				
+
 		System.out.printf("total_eclipse is %d\n", exam.total());
 		System.out.printf("total_eclipse is %f\n", exam.avg());
 		
