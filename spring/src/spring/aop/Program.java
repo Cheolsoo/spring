@@ -20,15 +20,8 @@ public class Program {
 		
 		Exam exam = (Exam) context.getBean("exam");
 		
-		// f101 브랜치와 dev 브랜치 Pull Request 할 때 충돌을 일으키기 위해 아래와 같이
-		// total --> total2 로 수정함
-		//
-		// 저장소에서 pull 이후 충돌화면 확인 후 수정함
-		System.out.printf("total2_eclipse is %d\n", exam.total());
-		System.out.printf("total2_eclipse is %f\n", exam.avg());
-		
-		// SR번호 101 에 맞게 f101 이라는 로컬 브랜치 생성하고 commit & push 진행해봅니다. 
-		
+		System.out.printf("total2_git_bash is %d\n", exam.total());
+		System.out.printf("total2_git_bash is %f\n", exam.avg());
 		
 		/*
 		Exam exam = new NewlecExam(1,1,1,1);
