@@ -23,6 +23,8 @@ public class Program {
 		System.out.printf("total is %d\n", exam.total());
 		System.out.printf("total is %f\n", exam.avg());
 		
+		
+		
 		/*
 		Exam exam = new NewlecExam(1,1,1,1);
 		 		

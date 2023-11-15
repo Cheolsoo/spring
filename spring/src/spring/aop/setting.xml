@@ -30,10 +30,29 @@
 	</bean>
  -->
 
+
 	<bean id="classBeforeAdvisor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
 		<property name="advice" ref="logBeforeAdvice" />
-		<property name="mappedName" value="total" />		
+		<property name="mappedNames">
+			<list>
+				<value>total</value>
+				<value>avg</value>
+			</list>
+		</property>		
 	</bean>
+
+ 
+ <!-- 이상하게 아래것은 안된다. 20231115-1110 -->
+ <!--                                         
+ 	<bean id="classBeforeAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="advice" ref="logBeforeAdvice" />
+		<property name="mappedNames">
+			<list>
+				<value>.*to.*</value>
+			</list>
+		</property>		
+	</bean>
+ --> 
  
 	<bean id="classAroundAdvisor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
 		<property name="advice" ref="logAroundAdvice"/>
